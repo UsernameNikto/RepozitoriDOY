@@ -9,8 +9,9 @@ function clickCube() {
     "0 0 5px rgba(" + red + ", " + green + ", " + blue + ", 1)," +
     "0 0 25px rgba(" + red + ", " + green + ", " + blue + ", 1)," +
     "0 0 50px rgba(" + red + ", " + green + ", " + blue + ", 1)," +
-    "0 0 100px rgba(" + red + ", " + green + ", " + blue + ", 1),";
-
+    "0 0 100px rgba(" + red + ", " + green + ", " + blue + ", 1)," +
+    "0 0 150px rgba(" + red + ", " + green + ", " + blue + ", 1),";
+    
     document.getElementById("cube").style.backgroundColor = "rgb(" + red + ", " + green + ", " + blue + ")";
     document.getElementById("cube").style.boxShadow = stringBoxShadow;
     document.getElementById("container").style.transform = "rotate(" + deg +"deg)"; 
